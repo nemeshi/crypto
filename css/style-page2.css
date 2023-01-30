@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  .container {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0px 150px;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu__list {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+  .list__item {
+    margin-left: 20px;
+  }
+  .header__title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 60px;
+    max-width: 450px;
+    margin-top: 125px;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 60px;
+    color: #363940;
+    margin-top: 114px;
+    max-width: 458px;
+}
+
+/* .header__img {
+  height: 600px;
+  width: 40%;
+  background-size: cover;
+} */
+
+.header__img {
+  background-image: url('../img/header-1.jpg');
+  height: 600px;
+  width: 43%;
+  background-size: cover;
+}
+
+.economica {
+    padding: 71px 0 30px;
+    background: #F8F8F8;
+}
+
+.economica__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.economica__content {
+    margin-left: 124px;
+}
+
+.economica__title,
+.bank__title,
+.cryptocurrency__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 38px;
+    color: #363940;
+    margin-bottom: 49px;
+}
+
+.economica__text,
+.bank__text,
+.cryptocurrency__text {
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 30px;
+    color: #363940;
+    max-width: 460px;
+}
+
+.economica__img {
+  max-width: 531px;
+  height: 480px;
+  border-radius: 57px;
+}
+
+.bank {
+    padding: 71px 0 30px;
+}
+
+.bank__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank__content { 
+    margin-left: 124px;
+}
+
+.bank__title {
+    max-width: 390px;
+}
+
+.cryptocurrency {
+    padding: 71px 0 30px;
+    background: #F8F8F8;
+}
+
+.cryptocurrency__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cryptocurrency__content {
+    margin-left: 124px;
+}
+
+.cryptocurrency__title {
+    max-width: 400px;
+}
+
+.footer__container {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F8F8F8;
+    padding: 20px 0px 20px 0px;
+  }
+.footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #F8F8F8;
+  padding: 20px 0px 20px 0px;
+  margin-top: 27px;
+  margin-bottom: 60px;
+}
+.btn {
+  background-color: #3B3B43;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: all .3s;
+}
+
+.btn-language {
+  background-color: #3B3B43;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  transition: all .3s;
+}
+
+.dropdown {
+  display: inline-block;
+  position: absolute;
+}
+
+.dropdown-content {
+  opacity: 0;
+  position: absolute;
+  background-color: #f1f1f144;
+  transform: translateX(-600%);
+  transition: all .7s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  transition: all .3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all .7s;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.footer__copyright{
+font-weight: 300;
+font-size: 14px;
+line-height: 22px;
+  color: #95A1BB;
+}
+
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  font-size: 76px;
+}
